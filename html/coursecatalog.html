@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+  <title>SwitchLMS</title>
+
+  <link href="css/style.default.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="fixed fixed-noleft">
+
+
+<section>
+    
+    <div class="leftpanel">
+    
+    <div class="logopanel">
+        <h1><span>[</span> <img src="images/logo-switchlms.png" style="width:150px;"> <span>]</span></h1>
+    </div><!-- logopanel -->
+    
+    <div class="leftpanelinner">
+        
+      <!-- This is only visible to small devices -->
+      <div class="visible-xs hidden-sm hidden-md hidden-lg">   
+        <div class="media userlogged">
+          <img alt="" src="images/photos/loggeduser.png" class="media-object">
+          <div class="media-body">
+              <h4>Suzy Lee</h4>
+          </div>
+        </div>
+        
+        <h5 class="sidebartitle actitle">Account</h5>
+        <ul class="nav nav-pills nav-stacked nav-bracket mb30">
+          <li><a href="dashboard.html"><i class="fa fa-user"></i> <span>My Profile</span></a></li>
+          <li><a href=""><i class="fa fa-cog"></i> <span>Change Password</span></a></li>
+          <li><a href="signout.html"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
+        </ul>
+      </div>
+      
+      
+    </div><!-- leftpanelinner -->
+  </div><!-- leftpanel -->
+  
+  <div class="mainpanel">
+    
+    <div class="headerbar">
+      
+      <div class="header-left">
+        
+        <div class="logopanel">
+            <h1><span>[</span> <img src="images/logo-switchlms.png" style="width:150px;"> <span>]</span></h1>
+        </div><!-- logopanel -->
+        
+        <div class="topnav">
+            
+            <a class="menutoggle"><i class="fa fa-bars"></i></a>
+            
+            <ul class="nav nav-horizontal">
+                <li><a href="dashboard.html"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
+                <li><a href="mylearnings.html"><span class="pull-right badge badge-success">7</span><i class="fa fa-book"></i> <span>My Learning</span></a></li>
+                <li class="active"><a href="coursecatalog.html"><i class="fa fa-university"></i> <span>Course Catalog</span></a></li>
+                
+                <li class="nav-parent"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-list"></i> Admin <span class="caret"></span></a>
+                    <ul class="dropdown-menu children">
+                        <li><a href=""><i class="fa fa-caret-right"></i> Course Management</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Users</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Reports</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> News Feeds</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-search"></i></a>
+                    <div class="dropdown-menu">
+                        <form action="index.html" method="post">
+                            <input type="text" class="form-control" name="keyword" placeholder="Search here..." />
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- topnav -->
+          
+      </div><!-- header-left -->
+      
+      <div class="header-right">
+        <ul class="headermenu">
+          <li>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <img src="images/photos/loggeduser.png" alt="" />
+                Suzy Lee
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                <li><a href="dashboard.html"><i class="glyphicon glyphicon-user"></i> My Profile</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Change Password</a></li>
+                <li><a href="signin.html"><i class="glyphicon glyphicon-log-out"></i> Log Out</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div><!-- header-right -->
+      
+    </div><!-- headerbar -->
+        
+    <div class="pageheader">
+      <h2><i class="fa fa-university"></i> Course Catalog <span style="display:none;">Subtitle goes here...</span></h2>
+      <div class="breadcrumb-wrapper">
+        <span class="label">You are here:</span>
+        <ol class="breadcrumb">
+          <li><a href="dashboard.html">Home</a></li>
+          <li class="active">Course Catalog</li>
+        </ol>
+      </div>
+    </div>
+    
+    <div class="contentpanel">
+
+      <div class="row">
+
+        <div class="col-sm-4 col-md-3">
+          <h4 class="subtitle mb5">Search For Courses</h4>
+          <input type="text" value="" placeholder="Enter your search here" class="form-control" />
+
+          <div class="mb20"></div>
+
+          <h4 class="subtitle mb5">Choose Library</h4>
+          <div class="btn-group btn-full-width">
+            <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+              All <i class="fa fa-sort"></i>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Personal Development</a></li>
+              <li><a href="#">Health</a></li>
+              <li><a href="#">Office Productivity</a></li>
+            </ul>
+          </div>
+
+          <div class="mb20"></div>
+
+          <h4 class="subtitle mb5">Sort By</h4>
+          <div class="btn-group btn-full-width">
+            <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+              Latest Courses <i class="fa fa-sort"></i>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Course Code</a></li>
+              <li><a href="#">Course Name</a></li>
+            </ul>
+          </div>
+
+          <div class="mb20"></div>
+            
+          <div class="categorypanel">
+          <h4 class="subtitle mb5">Categories</h4>
+          <ul class="nav nav-pills nav-stacked nav-bracket">
+
+            <li class="nav-parent active"><a href=""><i class="fa fa-folder"></i> <span>Business</span></a>
+              <ul class="children">
+                <li><a href=""><i class="fa fa-minus"></i> Finance</a></li>
+                <li><a href=""><i class="fa fa-minus"></i> Management</a></li>
+                <li><a href=""><i class="fa fa-minus"></i> Enterpreneurship</a></li>
+                <li><a href=""><i class="fa fa-minus"></i> Office Productivity</a></li>
+                <li><a href=""><i class="fa fa-minus"></i> Business Law</a></li>
+                <li><a href=""><i class="fa fa-minus"></i> Data & Analytics</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Leadership</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Technology</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Personal Development</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Design</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Marketing</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Academics</span></a></li>
+            <li><a href=""><i class="fa fa-folder"></i> <span>Lifestyle</span></a></li>
+          </ul>
+          </div>
+          
+        </div>
+        
+        <div class="col-sm-8 col-md-9">
+          <div class="panel panel-default courses-panel">
+                <div class="panel-heading">
+                  <h4 class="panel-title">Browse Available Courses</h4>
+                </div><!-- panel-heading -->
+                <div class="panel-body">
+                    
+                    <div class="results-list mylearnings-list">
+                        
+                        <div class="media">
+                            <div class="media-object-wrap">
+                              <a href="#">
+                              <img alt="" src="images/photos/image-courses1.jpg" class="media-object">
+                              </a>
+                              <button class="btn btn-primary btn-block btn-enroll btn-sm">ENROLL</button>  
+                            </div>
+                            <div class="media-body">
+                              <h4 class="filename text-primary"><a href="">Leaders Eat Last</a></h4>
+                              <h5><i class="fa fa-tag"></i>Personal Development</h5>
+                              <p>So many people believe that you must have a special ‘gift’ to create professional quality, dynamic websites/web apps. I’m here to tell you once and for all that this is false. All you need to have is the desire to learn and the ability to follow instructions—that’s it!</p>
+                              <small class="text-muted"><i class="fa fa-desktop"></i> E-Learning</small><br>
+                              <small class="text-muted">Duration: 1 Hour</small><br>
+                              <small class="text-muted">Course Code: FNL120</small><br>
+                              <small class="text-muted">Instructor: Karlo Estrada</small><br>
+                              <small class="text-muted">Started: 02/03/2015</small><br>
+                              <small class="text-muted">End Date: 02/12/2015</small><br><br>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-object-wrap">
+                              <a href="#">
+                              <img alt="" src="images/photos/image-courses2.jpg" class="media-object">
+                              </a>
+                              <button class="btn btn-primary btn-block btn-enroll btn-sm">ENROLL</button>  
+                            </div>
+                            <div class="media-body">
+                              <h4 class="filename text-primary"><a href="">Creating a Productive Work</a></h4>
+                              <h5><i class="fa fa-tag"></i>Office Productivity</h5>
+                              <p>So many people believe that you must have a special ‘gift’ to create professional quality, dynamic websites/web apps. I’m here to tell you once and for all that this is false. All you need to have is the desire to learn and the ability to follow instructions—that’s it!</p>
+                              <small class="text-muted"><i class="fa fa-desktop"></i> E-Learning</small><br>
+                              <small class="text-muted">Duration: 1 Hour</small><br>
+                              <small class="text-muted">Course Code: FNL120</small><br>
+                              <small class="text-muted">Instructor: Karlo Estrada</small><br>
+                              <small class="text-muted">Started: 02/03/2015</small><br>
+                              <small class="text-muted">End Date: 02/12/2015</small><br><br>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-object-wrap">
+                              <a href="#">
+                              <img alt="" src="images/photos/image-courses3.jpg" class="media-object">
+                              </a>
+                              <button class="btn btn-primary btn-block btn-enroll btn-sm">ENROLL</button>  
+                            </div>
+                            <div class="media-body">
+                              <h4 class="filename text-primary"><a href="">Negotiation to Win</a></h4>
+                              <h5><i class="fa fa-tag"></i>Business</h5>
+                              <p>So many people believe that you must have a special ‘gift’ to create professional quality, dynamic websites/web apps. I’m here to tell you once and for all that this is false. All you need to have is the desire to learn and the ability to follow instructions—that’s it!</p>
+                              <small class="text-muted"><i class="fa fa-desktop"></i> E-Learning</small><br>
+                              <small class="text-muted">Duration: 1 Hour</small><br>
+                              <small class="text-muted">Course Code: FNL120</small><br>
+                              <small class="text-muted">Instructor: Karlo Estrada</small><br>
+                              <small class="text-muted">Started: 02/03/2015</small><br>
+                              <small class="text-muted">End Date: 02/12/2015</small><br><br>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-object-wrap">
+                              <a href="#">
+                              <img alt="" src="images/photos/image-courses4.jpg" class="media-object">
+                              </a>
+                              <button class="btn btn-primary btn-block btn-enroll btn-sm">ENROLL</button>  
+                            </div>
+                            <div class="media-body">
+                              <h4 class="filename text-primary"><a href="">Learning Accounting</a></h4>
+                              <h5><i class="fa fa-tag"></i>Finance</h5>
+                              <p>So many people believe that you must have a special ‘gift’ to create professional quality, dynamic websites/web apps. I’m here to tell you once and for all that this is false. All you need to have is the desire to learn and the ability to follow instructions—that’s it!</p>
+                              <small class="text-muted"><i class="fa fa-desktop"></i> E-Learning</small><br>
+                              <small class="text-muted">Duration: 1 Hour</small><br>
+                              <small class="text-muted">Course Code: FNL120</small><br>
+                              <small class="text-muted">Instructor: Karlo Estrada</small><br>
+                              <small class="text-muted">Started: 02/03/2015</small><br>
+                              <small class="text-muted">End Date: 02/12/2015</small><br><br>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-object-wrap">
+                              <a href="#">
+                              <img alt="" src="images/photos/image-courses5.jpg" class="media-object">
+                              </a>
+                              <button class="btn btn-primary btn-block btn-enroll btn-sm">ENROLL</button>  
+                            </div>
+                            <div class="media-body">
+                              <h4 class="filename text-primary"><a href="">Teamwork 101</a></h4>
+                              <h5><i class="fa fa-tag"></i>Personal Development</h5>
+                              <p>So many people believe that you must have a special ‘gift’ to create professional quality, dynamic websites/web apps. I’m here to tell you once and for all that this is false. All you need to have is the desire to learn and the ability to follow instructions—that’s it!</p>
+                              <small class="text-muted"><i class="fa fa-desktop"></i> E-Learning</small><br>
+                              <small class="text-muted">Duration: 1 Hour</small><br>
+                              <small class="text-muted">Course Code: FNL120</small><br>
+                              <small class="text-muted">Instructor: Karlo Estrada</small><br>
+                              <small class="text-muted">Started: 02/03/2015</small><br>
+                              <small class="text-muted">End Date: 02/12/2015</small><br><br>
+                            </div>
+                        </div>
+
+                        
+                        
+                        
+                    </div><!-- results-list -->
+
+                    <ul class="pagination pull-right">
+                      <li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                      <li><a href="#">1</a></li>
+                      <li class="active"><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                    
+                </div><!-- panel-body -->
+            </div>
+        </div>
+
+      </div> 
+
+    </div>
+    
+  </div><!-- mainpanel -->
+  
+  
+  
+</section>
+
+
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-ui-1.10.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.min.js"></script>
+<script src="js/jquery.sparkline.min.js"></script>
+<script src="js/toggles.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/jquery.cookies.js"></script>
+
+<script src="js/flot/jquery.flot.min.js"></script>
+<script src="js/flot/jquery.flot.resize.min.js"></script>
+<script src="js/flot/jquery.flot.spline.min.js"></script>
+<script src="js/morris.min.js"></script>
+<script src="js/raphael-2.1.0.min.js"></script>
+
+<script src="js/custom.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

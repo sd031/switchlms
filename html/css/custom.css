@@ -1,0 +1,204 @@
+.btn-panel-header{
+    position:absolute;
+    right:20px;
+    top:13px;
+}
+
+.progress-summary{
+    display:block;
+    clear:both;
+}
+
+.progress-wrap{
+    position: relative;
+    clear: both;
+    margin-bottom: 55px;
+    overflow: visible;
+    display: block;
+}
+
+.progress-wrap .legend-field{
+    float:left;
+    width:20%;
+}
+
+.progress-wrap .progress{
+    width:80%;
+}
+
+.legend-count {
+  font-weight: 700;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.legend-percent {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.legend-title {
+  text-transform: uppercase;
+}
+
+
+
+.performance-wrap{
+    display:block;
+    clear:both;
+    margin-bottom:20px;
+    position:relative;
+    overflow:hidden;
+}
+
+.performance-wrap .performance-field{
+    text-align:center;
+    float:left;
+    margin-right:40px;
+}
+
+.performance-field .performance-count{
+    font-size:16px;
+    font-weight:700px;
+}
+
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right:30px;
+}
+
+.chart .count{
+    margin:22px auto 0;
+    text-align:center;
+    display:block;
+}
+
+.chart .title{clear:both;}
+
+.chart .percent{
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    clear:both;
+    font-weight:bold;
+    font-size:18px;
+    color:#363636;
+}
+
+.chart .percent:after {
+  content: '%)';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+
+.chart .percent:before {
+  content: '(';
+  margin-right: 0.1em;
+  font-size: .8em;
+}
+
+
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.mylearnings-list .media-body{
+    position:relative;
+}
+
+.mylearnings-list .media-body p{
+    margin-top:10px;
+}
+
+.mylearnings-list .media-body .text-muted{
+    margin-right:20px;
+}
+
+.mylearnings-list .media-body .fa-tag, .mylearnings-list .media-body .fa-graduation-cap{
+    margin-right:7px;
+}
+
+.mylearnings-list .media-body .label{
+    position:absolute;
+    top:5px;
+    right:0px;
+}
+
+.mylearnings-list .media-object{
+    width:200px;
+}
+
+.mylearnings-list .media-object-wrap{
+    float:left;
+}
+
+
+.courses-panel .filter-type {
+  float: right;
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+}
+
+.courses-panel .panel-title{
+    display:inline-block;
+}
+
+
+.courses-panel .filter-type a.active {
+  text-decoration: underline;
+  color: #2A6496;
+}
+
+.courses-panel .filter-type a:first-child {
+  margin-left:10px;
+}
+
+
+
+.courses-panel .filter-type a{
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+}
+
+.courses-panel .sort-wrap{
+    float:right;
+}
+
+.courses-panel .sort-wrap label{
+    vertical-align: middle;
+    margin-right:7px;
+}
+
+.courses-panel .btn-enroll{
+    margin-top:10px;
+    width:95%;
+}
+
+.courses-panel .text-primary {
+  width:85%;
+}
+
+.btn-full-width{width:100%;}
+.btn-full-width .btn{width:100%;text-align:left;}
+.btn-full-width .dropdown-menu{width:100%;}
+.btn-full-width .fa-sort{float:right;margin-top:4px;}
+
+
+/* COURSE DETAIL*/
+.blog-meta .fa-desktop,.blog-meta .fa-users{margin-right:7px;}
+.course-detail .course-image{width:30%;margin-right:15px;margin-bottom:5px;float:left;}
+p.large{font-size:23px;line-height:35px;}
